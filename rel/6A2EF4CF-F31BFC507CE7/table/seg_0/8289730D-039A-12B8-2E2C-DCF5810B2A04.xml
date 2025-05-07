@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8289730D-039A-12B8-2E2C-DCF5810B2A04" name="TB_CARGO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:50:08 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cargo" id="BE260F64-3026-9773-BB15-B4C88374DF43">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:50:36 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_cargo" id="7DAC7710-A812-50A0-4C98-BDCA757A2E37">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:50:36 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F110A62E-FB86-AFE5-E76E-7C7EFDEC1332" name="TB_CARGO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:50:36 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE260F64-3026-9773-BB15-B4C88374DF43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

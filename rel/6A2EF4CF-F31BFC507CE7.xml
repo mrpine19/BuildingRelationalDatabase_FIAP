@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="6A2EF4CF-223E-FE0F-3AB0-F31BFC507CE7" mainViewID="41D20780-D756-5186-9B97-A9A47FD24F8F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:18:48 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

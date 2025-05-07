@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CA3618F-2869-3459-9997-F66E84228A9D" name="TB_TIPO_CURSO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:45:56 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_candidato" id="6B44015A-4861-4290-A927-FC5807633FAC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:15:23 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACF067D1-04A3-FCD2-0911-3CCC4021FC02" referredColumn="3782BB53-F25B-DC95-5815-638B25842677"/>
+</associations>
+</Column>
+<Column name="id_instituicao" id="EED4480D-F38E-4B89-4967-EB187C103297">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:47:55 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2183B33F-6DC9-34CF-5C26-18934F6FED84" referredColumn="0F78D5C5-372C-4834-53B7-C9B1C820C2AD"/>
+</associations>
+</Column>
+<Column name="id_curso" id="9D0EBBF9-C1E0-3C1C-57EC-A48AA7660274">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:47:44 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7749A5AA-E910-1275-3E7B-B2F06FDA2254" referredColumn="2395FF16-15E8-69F2-2194-BA8BA7D830F7"/>
+</associations>
+</Column>
+<Column name="tipo_curso" id="E63A7034-D021-0C49-AE5C-F4D860E17BA3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:46:33 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_inicio_curso" id="4B408F4E-F400-7977-B47E-250FE6F46594">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:30:15 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_fim_curso" id="C77FED01-7195-6D16-284B-B8CC1846AAEA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:30:15 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="116E6283-940B-75D7-5458-D3CDEE28B90E" name="TB_TIPO_CURSO_TB_CURSO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:47:44 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D0EBBF9-C1E0-3C1C-57EC-A48AA7660274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D97A3C6-5A60-1AB2-5154-2DC56758B6DB" name="TB_TIPO_CURSO_TB_INSTITUICAO_ENSINO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:47:55 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EED4480D-F38E-4B89-4967-EB187C103297"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D13ED4A-5C69-562D-B7FB-B8C151F05AC7" name="TB_TIPO_CURSO_TB_CANDIDATO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:15:23 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B44015A-4861-4290-A927-FC5807633FAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

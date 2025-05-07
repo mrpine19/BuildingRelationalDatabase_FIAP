@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AAA19BC-27B0-7601-D438-A4D1629D93B3" name="TB_CANDIDATURA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:08:48 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_candidato" id="E8434F1B-BD3B-7FF5-5BE1-CE0563BCF67B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:16:14 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFC6A038-66CF-2C29-3BA2-D743E086D15B" referredColumn="3782BB53-F25B-DC95-5815-638B25842677"/>
+</associations>
+</Column>
+<Column name="id_vaga" id="18CD741C-3CAE-7E75-55B5-784A487E09CB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:12:23 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE376CED-9575-EEA8-11C3-3078E14B5235" referredColumn="7B7D796C-A126-1E32-2C85-434A32256776"/>
+</associations>
+</Column>
+<Column name="id_empresa" id="B1946DCD-647D-2636-C45A-35FB9323A95B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:12:30 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C933DBC5-59A5-2ED2-1C70-07DC8A3F0EAB" referredColumn="3B3FBE4D-997C-AAAC-63FE-E47B86C08084"/>
+</associations>
+</Column>
+<Column name="data_candidatura_candidato" id="81D57F54-7DC8-D306-CBD2-8308826EBD8A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:11:24 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C87208F2-7AD8-9725-B49F-1AC33EA63EDB" name="TB_CANDIDATURA_TB_VAGA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:12:23 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18CD741C-3CAE-7E75-55B5-784A487E09CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8421A98-4198-6127-70C1-48F9479504ED" name="TB_CANDIDATURA_TB_EMPRESA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:12:30 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1946DCD-647D-2636-C45A-35FB9323A95B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F11C6E6A-3343-ED0C-6B24-71CAC44CAA9C" name="TB_CANDIDATURA_TB_CANDIDATO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:16:14 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8434F1B-BD3B-7FF5-5BE1-CE0563BCF67B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

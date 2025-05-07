@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ACF067D1-04A3-FCD2-0911-3CCC4021FC02" containerWithKeyObject="7CA3618F-2869-3459-9997-F66E84228A9D" localFKIndex="9D13ED4A-5C69-562D-B7FB-B8C151F05AC7" name="TB_TIPO_CURSO_TB_CANDIDATO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:15:23 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<referredTableLongName>TB_CANDIDATO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4D2BDA24-D912-CDB2-E3AA-F171E7A2569C</referredTableID>
+<keyObject>A85D6089-2AC9-9785-5747-990200F14CC7</keyObject>
+<referredKeyID>A85D6089-2AC9-9785-5747-990200F14CC7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_candidato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

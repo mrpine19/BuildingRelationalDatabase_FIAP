@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A983FE8-7889-4FB1-B9A6-1F262EE0D3EF" name="TB_VAGA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:23:59 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vaga" id="7B7D796C-A126-1E32-2C85-434A32256776">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:34:07 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_vaga" id="A9319EC6-3D9B-A2A4-73F3-FFFDD648408A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:34:07 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_vaga" id="73C4630E-4B3E-D16E-8266-472F8B64213B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 23:21:36 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC8CFC98-53A9-6EFE-B05E-2E5CE3978C89" name="TB_VAGA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-07 22:34:07 UTC</createdTime>
+<ownerDesignName>CP2 Recuperacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B7D796C-A126-1E32-2C85-434A32256776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
