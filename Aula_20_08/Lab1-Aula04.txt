@@ -1,0 +1,44 @@
+----------------------------------LAB 1 Aula 04----------------------------------
+SELECT * FROM TB_CLIENTE;
+insert into tb_cliente values (1, 'Gustavo', '243532' );
+insert into tb_cliente values (2, 'Orlando', 11122233344 );
+insert into tb_cliente values (3, 'Joelma', 55566677788 );
+
+SELECT * FROM TB_CONTATO;
+INSERT INTO TB_CONTATO VALUES (1, 'mrpine19@gmail.com', '11969481916');
+INSERT INTO TB_CONTATO VALUES (2, 'gustavoabcjk1@gmail.com', '');
+INSERT INTO TB_CONTATO VALUES (2, 'joserioreal19@gmail.com', '11942165058');
+INSERT INTO TB_CONTATO VALUES (3, 'joelmap0974@gmail.com', '11961225590');
+
+SELECT * FROM TB_LOGIN;
+insert into tb_login values (1, 'teste2', 'senha');
+insert into tb_login values (2, 'joserioreal', '123456');
+insert into tb_login values (3, 'joelmap0974', 'insira a senha');
+insert into tb_login values (3, 'joelma_do_balacubaco', 'insira a senha');
+
+SELECT * FROM TB_PEDIDO;
+INSERT INTO TB_PEDIDO VALUES (1, 1, SYSDATE);
+INSERT INTO TB_PEDIDO VALUES (2, 1, SYSDATE);
+INSERT INTO TB_PEDIDO VALUES (3, 2, TO_DATE('19-07-2025', 'DD-MM-YYYY'));
+INSERT INTO TB_PEDIDO VALUES (4, 2, TO_DATE('27-09-2025 14:30:00', 'DD-MM-YYYY HH24:MI:SS'));
+INSERT INTO TB_PEDIDO VALUES (5, 3, TO_DATE('25-05-2025 10:55:00', 'DD-MM-YYYY HH24:MI:SS'));
+INSERT INTO TB_PEDIDO VALUES (6, 3, TO_DATE('10-01-1995 00:30:00', 'DD-MM-YYYY HH24:MI:SS'));
+
+SELECT * FROM TB_PEDIDO_PIZZA;
+INSERT INTO TB_PEDIDO_PIZZA VALUES (1, 1, 1);
+INSERT INTO TB_PEDIDO_PIZZA VALUES (2, 4, 7);
+INSERT INTO TB_PEDIDO_PIZZA VALUES (5, 3, 10);
+
+SELECT * FROM TB_PIZZA;
+INSERT INTO TB_PIZZA (ID_PIZZA, NOME_PIZZA, VALOR_PIZZA, CATEGORIA) VALUES (2, 'Calabresa', '35.64', 'Salgada');
+INSERT INTO TB_PIZZA (ID_PIZZA, NOME_PIZZA, VALOR_PIZZA, CATEGORIA) VALUES (3, 'Mussarela e Calabresa', '55.50', 'Salgada');
+INSERT INTO TB_PIZZA (ID_PIZZA, NOME_PIZZA, VALOR_PIZZA, CATEGORIA) VALUES (4, 'Frango', '43.34', 'Salgada');
+
+SELECT * FROM TB_PIZZA_COMPOSICAO;
+INSERT INTO TB_PIZZA_COMPOSICAO VALUES (2, 2);
+INSERT INTO TB_PIZZA_COMPOSICAO VALUES (3, 2);
+INSERT INTO TB_PIZZA_COMPOSICAO VALUES (4, 3);
+
+SELECT * FROM TB_INGREDIENTE;
+INSERT INTO TB_INGREDIENTE VALUES (2, 'Calabresa');
+INSERT INTO TB_INGREDIENTE VALUES (3, 'Frango');
